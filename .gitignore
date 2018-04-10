@@ -1,0 +1,21 @@
+#Python virtual environment
+.venv
+venv
+
+#Mac OS X Junk
+.DS_Store
+
+#Idea
+*.iml
+
+# C extensions
+*.so
+
+# Packages
+package-lock.json
+*.egg
+*.egg-info
+dist
+build
+eggs
+
