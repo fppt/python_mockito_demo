@@ -8,7 +8,7 @@ from mockito_demo.job.sum_job import SumJob
 from mockito_demo.manager.manager import Manager
 
 
-class ManagerTestBad(unittest.TestCase):
+class ManagerTestGood(unittest.TestCase):
 
     def test_when_giving_manager_jobs_to_run_ensure_all_jobs_run(self):
         # Create a Manager

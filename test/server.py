@@ -1,7 +1,7 @@
 import unittest
 
 from pyramid import testing
-from mockito_demo.server import hello_world
+from mockito_demo.server import hello_world_post
 
 
 class ServerTest(unittest.TestCase):
@@ -19,5 +19,5 @@ class ServerTest(unittest.TestCase):
         request.matchdict = {'name': 'bob'}
 
         # Get and validate response
-        response = hello_world(request)
+        response = hello_world_post(request)
         self.assertEqual(response.status_code, 200)

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac4c1cd5-7eef-4a36-a637-ba0f99d9f7c6" name="Default" comment="" />
+    <list default="true" id="ac4c1cd5-7eef-4a36-a637-ba0f99d9f7c6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockito_demo/controllers/ManagerController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockito_demo/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/mockito_demo/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/manager/manager_good.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/manager/manager_good.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/server.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +21,8 @@
       <file leaf-file-name="manager_good.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/manager/manager_good.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -23,11 +30,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="manager_bad.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/manager/manager_bad.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mockito_demo/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -35,7 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pyramid/config/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerController.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mockito_demo/controllers/ManagerController.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -56,6 +89,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -72,9 +108,10 @@
         <option value="$PROJECT_DIR$/test/manager/manager_worse.py" />
         <option value="$PROJECT_DIR$/mockito_demo/job/sum_job.py" />
         <option value="$PROJECT_DIR$/mockito_demo/worker/worker.py" />
+        <option value="$PROJECT_DIR$/test/server.py" />
+        <option value="$PROJECT_DIR$/mockito_demo/controllers/ManagerController.py" />
         <option value="$PROJECT_DIR$/test/manager/manager_good.py" />
         <option value="$PROJECT_DIR$/mockito_demo/server.py" />
-        <option value="$PROJECT_DIR$/test/server.py" />
       </list>
     </option>
   </component>
@@ -83,6 +120,7 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -103,7 +141,73 @@
             <path>
               <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mockito_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="mockito" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pyramid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MockitoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MockitoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pyramid" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for server.ServerTest">
+  <component name="RunManager" selected="Python.server">
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MockitoDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +282,19 @@
       <option name="_new_target" value="&quot;server.TutorialViewTests&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests in manager_bad.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MockitoDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/manager/manager_bad.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Unittests in manager_good.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MockitoDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,33 +308,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/manager/manager_good.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in manager_worse.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="MockitoDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/manager" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/manager/manager_worse.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in manager_good.py" />
-      <item itemvalue="Python tests.Unittests in manager_worse.py" />
       <item itemvalue="Python.server" />
       <item itemvalue="Python tests.Unittests for server.TutorialViewTests" />
       <item itemvalue="Python tests.Unittests for server.ServerTest" />
+      <item itemvalue="Python tests.Unittests in manager_bad.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for server.ServerTest" />
         <item itemvalue="Python.server" />
-        <item itemvalue="Python tests.Unittests for server.TutorialViewTests" />
         <item itemvalue="Python tests.Unittests in manager_good.py" />
-        <item itemvalue="Python tests.Unittests in manager_worse.py" />
+        <item itemvalue="Python tests.Unittests in manager_bad.py" />
+        <item itemvalue="Python tests.Unittests for server.ServerTest" />
+        <item itemvalue="Python tests.Unittests for server.TutorialViewTests" />
       </list>
     </recent_temporary>
   </component>
@@ -235,15 +339,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_manager_good_py - 2018.04.09 at 11h 52m 10s.xml">
-      <configuration name="Unittests in manager_good.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_manager_good_py - 2018.04.09 at 11h 52m 29s.xml">
-      <configuration name="Unittests in manager_good.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_manager_bad_py - 2018.04.09 at 16h 41m 57s.xml">
-      <configuration name="Unittests in manager_bad.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_manager_worse_py - 2018.04.09 at 16h 42m 03s.xml">
       <configuration name="Unittests in manager_worse.py" configurationId="tests" />
     </history-entry>
@@ -265,6 +360,15 @@
     <history-entry file="Unittests_for_server_ServerTest - 2018.04.10 at 09h 32m 59s.xml">
       <configuration name="Unittests for server.ServerTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_manager_bad_py - 2018.04.10 at 09h 59m 42s.xml">
+      <configuration name="Unittests in manager_bad.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_manager_good_py - 2018.04.10 at 10h 01m 54s.xml">
+      <configuration name="Unittests in manager_good.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_manager_good_py - 2018.04.10 at 10h 02m 02s.xml">
+      <configuration name="Unittests in manager_good.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -275,7 +379,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960325" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27873856" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32960325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
@@ -299,11 +403,6 @@
           <url>file://$PROJECT_DIR$/mockito_demo/manager/manager.py</url>
           <line>14</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mockito_demo/server.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="7" />
@@ -435,16 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/manager/manager_bad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/manager/manager_worse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -455,10 +544,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockito_demo/controllers/ManagerController.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/manager/manager_bad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pyramid/config/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/manager/manager_good.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -467,20 +586,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mockito_demo/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
