@@ -13,7 +13,8 @@ class ManagerTestBad(unittest.TestCase):
         # Create Work For Manager
         jobs = []
         for x in range(10):
-            jobs.append(generate_job())
+            job, _, _ = generate_job()
+            jobs.append(job)
 
         # Run The Jobs
         manager.run_jobs(jobs)
