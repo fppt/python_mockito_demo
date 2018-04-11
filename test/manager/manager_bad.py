@@ -27,6 +27,3 @@ class ManagerTestBad(unittest.TestCase):
             result = worker.job.result
             self.assertEqual(result, expected_result)
 
-
-if __name__ == '__main__':
-    unittest.main()

@@ -35,8 +35,9 @@ class ManagerTestGood(unittest.TestCase):
         for job in jobs:
             verify(job, times=1).execute()
 
-    def __generate_mock(self):
-        coin_flip = random.randint(0,1)
+    @staticmethod
+    def __generate_mock():
+        coin_flip = random.randint(0, 1)
         if coin_flip:
             my_mock = mock(SumJob)
             my_mock.result = 5
@@ -48,6 +49,3 @@ class ManagerTestGood(unittest.TestCase):
         when(my_mock).execute().thenReturn(None)
         return my_mock
 
-
-if __name__ == '__main__':
-    unittest.main()

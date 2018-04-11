@@ -8,8 +8,6 @@ class SumJobTest(unittest.TestCase):
         val1 = 3
         val2 = 4
         sum_job = SumJob(val1, val2)
-        self.assertEqual(sum_job.execute(), 7)
+        sum_job.execute()
+        self.assertEqual(7, sum_job.result)
 
-
-if __name__ == '__main__':
-    unittest.main()

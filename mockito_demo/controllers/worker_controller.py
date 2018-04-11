@@ -1,4 +1,4 @@
-import random
+import json
 
 from pyramid.response import Response
 from pyramid.view import view_config
@@ -24,8 +24,8 @@ class WorkerController(AbstractController):
         # Create Job
         job_type = self.request.matchdict["job_type"]
         if job_type == "SumJob":
-            val1 = random.randint(1, 100)
-            val2 = random.randint(1, 100)
+            val1 = int(self.request.params['val1'])
+            val2 = int(self.request.params['val2'])
             job = SumJob(val1, val2)
         elif job_type == "LongJob":
             job = LongJob()
@@ -36,5 +36,9 @@ class WorkerController(AbstractController):
         worker = Worker("Rest Based Worker", job)
         worker.run()
 
-        return Response(
-            "Worker [{}] completed job [{}] with result [{}]".format(worker.name, worker.job.name, worker.job.result))
+        # Send result
+        result = json.dumps({'worker_name': worker.name, 'job_name': worker.job.name, 'result': worker.job.result})
+        response = Response()
+        response.json = json.loads(result)
+
+        return response
