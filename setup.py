@@ -3,6 +3,7 @@ from setuptools import setup
 requires = [
     'pyramid',
     'waitress',
+    'mockito'
 ]
 
 setup(name='mockito_demo',

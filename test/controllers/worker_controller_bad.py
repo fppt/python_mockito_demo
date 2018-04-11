@@ -29,6 +29,9 @@ class WorkerControllerTestBad(unittest.TestCase):
             # Execute Job
             controller = WorkerController(request)
             result = controller.run_job()
+
+            print("--------------- Result ---------------")
+            print(str(result))
             self.assertEquals(expected_result, result.json['result'])
 
 

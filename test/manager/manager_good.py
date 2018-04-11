@@ -1,11 +1,9 @@
-import random
 import unittest
 
-from mockito import when, mock, verify
+from mockito import verify
 
-from mockito_demo.job.long_job import LongJob
-from mockito_demo.job.sum_job import SumJob
 from mockito_demo.manager.manager import Manager
+from test.tools import mock_helper
 
 
 class ManagerTestGood(unittest.TestCase):
@@ -17,7 +15,8 @@ class ManagerTestGood(unittest.TestCase):
         # Create Work For Manager
         jobs = []
         for x in range(10):
-            jobs.append(self.__generate_mock())
+            mock_job, _, _ = mock_helper.generate_mock_job()
+            jobs.append(mock_job)
 
         # Run The Jobs
         manager.run_jobs(jobs)
@@ -34,18 +33,4 @@ class ManagerTestGood(unittest.TestCase):
         # We can even check if methods were called as expected
         for job in jobs:
             verify(job, times=1).execute()
-
-    @staticmethod
-    def __generate_mock():
-        coin_flip = random.randint(0, 1)
-        if coin_flip:
-            my_mock = mock(SumJob)
-            my_mock.result = 5
-        else:
-            my_mock = mock(LongJob)
-            my_mock.result = True
-
-        my_mock.name = "Mocked Thing"
-        when(my_mock).execute().thenReturn(None)
-        return my_mock
 
