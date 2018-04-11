@@ -17,13 +17,17 @@ class WorkerController(AbstractController):
 
     @view_config(route_name='worker', request_method='POST')
     def run_job(self):
+        """
+        Bad rest controller is bad. Look at that encapsulated constructor
+        :return:
+        """
         # Create Job
-        job_type = self.request.matchdict["job-type"]
-        if (job_type == "SumJob"):
+        job_type = self.request.matchdict["job_type"]
+        if job_type == "SumJob":
             val1 = random.randint(1, 100)
             val2 = random.randint(1, 100)
             job = SumJob(val1, val2)
-        elif (job_type == "LongJob"):
+        elif job_type == "LongJob":
             job = LongJob()
         else:
             return Response("Job Not Found")
