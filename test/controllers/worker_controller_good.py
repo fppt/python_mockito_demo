@@ -1,9 +1,8 @@
 import unittest
 
-from mockito import mock, when, ANY, verify, mockito, unstub
+from mockito import mock, when, ANY, verify, unstub
 from pyramid import testing
 
-from mockito_demo import job
 from mockito_demo.controllers.worker_controller import WorkerController
 from mockito_demo.job import sum_job, long_job
 from mockito_demo.worker import worker

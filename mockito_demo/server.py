@@ -6,7 +6,7 @@ from pyramid.view import view_config
 
 
 @view_config(route_name='hello-get', request_method='GET')
-def hello_world_get():
+def hello_world_get(_):
     return Response('Hello World!')
 
 

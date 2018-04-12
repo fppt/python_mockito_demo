@@ -32,6 +32,6 @@ class WorkerControllerTestBad(unittest.TestCase):
 
             print("--------------- Result ---------------")
             print(str(result))
-            self.assertEquals(expected_result, result.json['result'])
+            self.assertEqual(expected_result, result.json['result'])
 
 

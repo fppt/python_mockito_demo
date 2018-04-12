@@ -11,3 +11,4 @@ class LongJob(AbstractJob):
     def execute(self):
         time.sleep(10)  # This is just to represent a long running job like hitting the db
         self.result = True
+        return self.result
